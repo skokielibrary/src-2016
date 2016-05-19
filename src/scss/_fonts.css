@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Olivier';
+  src:
+       url('../fonts/olivier.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Vincent';
+  src:
+       url('../fonts/vincent.woff') format('woff'), /* Pretty Modern Browsers */
+}

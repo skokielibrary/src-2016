@@ -1,0 +1,43 @@
+.hero{
+  position: relative;
+  background-color: $dark-green;
+
+  .container{
+    position: relative;
+    min-height: 25rem;
+  }
+
+  svg{
+    position: absolute;
+    z-index: 500;
+  }
+
+  #scene{
+    display: none;
+    @media screen and (min-width: #{$wide-break-point}){
+      display: block;
+      float: right;
+      margin-left: 1rem;
+    }
+  }
+
+  #scene-mobile{
+    max-height: 300px;
+    @media screen and (min-width: #{$wide-break-point}){
+      display: none;
+    }
+  }
+
+
+  .ground{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10rem;
+    margin: 0;
+    border: 0;
+    background: $light-green;
+    z-index: 100;
+  }
+}

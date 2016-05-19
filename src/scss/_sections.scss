@@ -1,0 +1,81 @@
+.orientation{
+  .container{
+
+    @media screen and (min-width: #{$break-point}){
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+  }
+
+  .text{
+    @media screen and (min-width: #{$break-point}){
+      float: left;
+      width: 40%;
+    }
+  }
+
+  .media{
+    line-height: .8;
+
+    @media screen and (min-width: #{$break-point}){
+      float: left;
+      width: 50%;
+      margin-right: 10%;
+    }
+  }
+
+  h2{
+    font-size: 2.25rem;
+    color: $dark-green;
+    margin-bottom: 0;
+
+    @media screen and (min-width: #{$break-point}){
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  p{
+    color: $dark-green;
+  }
+}
+
+.video{
+  background: $light-green;
+
+  h2{
+    color: $white;
+  }
+
+  p{
+    color: $white;
+  }
+}
+
+.camps{
+  .media{
+    @media screen and (min-width: #{$break-point}){
+      margin-left: 10%;
+      margin-right: 0;
+    }
+  }
+}
+
+
+.progress{
+
+  .container{
+    @media screen and (min-width: #{$wide-break-point}){
+      padding-bottom: 0;
+    }
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+
+    @media screen and (min-width: #{$break-point}){
+      margin-left: -3rem;
+    }
+  }
+}

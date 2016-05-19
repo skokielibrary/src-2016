@@ -1,0 +1,18 @@
+{
+  "name": "src-2016",
+  "version": "1.0.0",
+  "description": "Landing page for SRC 2016.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skokie Public Library",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-sass": "^2.1.0"
+  }
+}
