@@ -1,10 +1,14 @@
+.banner_image {
+  width: 100%;
+}
+
 .hero{
   position: relative;
-  background-color: $dark-green;
+  background-color: $light-green;
 
   .container{
     position: relative;
-    min-height: 25rem;
+    min-height: 9rem;
   }
 
   svg{
@@ -37,7 +41,7 @@
     height: 10rem;
     margin: 0;
     border: 0;
-    background: $light-green;
+    background: $teal;
     z-index: 100;
   }
 }

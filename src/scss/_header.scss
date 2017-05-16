@@ -9,7 +9,7 @@ header{
   .button{
     margin: 1rem 1rem 0 0;
     padding: .875rem 1rem;
-    background: $blue;
+    background: $purple;
     color: $white;
 
     @media screen and (min-width: #{$wide-break-point}){
@@ -30,7 +30,7 @@ header{
   font-family: $brand-font-family;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: $dark-green;
+  color: $light-green;
   text-decoration: none;
   letter-spacing: .6px;
 
