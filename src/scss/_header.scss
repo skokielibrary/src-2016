@@ -30,14 +30,14 @@ header{
   font-family: $brand-font-family;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: $light-green;
+  color: $purple;
   text-decoration: none;
   letter-spacing: .6px;
 
    > small{
      display: block;
     font-size: 100%;
-    color: $gray;
+    color: $orange;
 
     @media screen and (min-width: #{$break-point}){
       display: inline;
