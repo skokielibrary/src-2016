@@ -7,11 +7,11 @@ var browserSync = require('browser-sync');
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
   browserSync.init({
-      server: "./dist"
+      server: "./docs"
   });
 
   gulp.watch("src/scss/*.scss", ['sass']);
-  gulp.watch("dist/*.html").on('change', browserSync.reload);
+  gulp.watch("docs/*.html").on('change', browserSync.reload);
 });
 
 // Compile sass into CSS & auto-inject into browsers
@@ -23,7 +23,7 @@ gulp.task('sass', function() {
 			cascade: false
 		}))
     .pipe(minifyCss())
-    .pipe(gulp.dest("dist/custom/assets/css"))
+    .pipe(gulp.dest("docs/custom/assets/css"))
 });
 
 gulp.task('default', ['serve']);
