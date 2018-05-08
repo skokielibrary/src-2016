@@ -1,19 +1,10 @@
 ## Overview
 
-This is the repo for the 2016 Summer Reading / Camp Curiosity landing page. You can view the page at [http://readingclubs.skokielibrary.info](http://readingclubs.skokielibrary.info).
+This is the repo for the Summer Reading landing page. You can view the page at [https://skokielibrary.info/summerreading/](https://skokielibrary.info/summerreading/).
 
 ## Setup
 
 To work on this locally, clone the repository and run `npm install`. After that run, 'gulp' to launch Browser Sync and build the page.
-
-## Deploy
-
-It's old fashioned, but effective:
-
-1. Mount the epic/evanced server.
-2. Copy the files to the `evanced/sr` directory.
-
-*Note: The `dist` directory assumes that the root is `evanced/sr`.*
 
 ## Form template
 
