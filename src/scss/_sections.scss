@@ -10,7 +10,7 @@
   .text{
     @media screen and (min-width: #{$break-point}){
       float: left;
-      width: 40%;
+      width: 50%;
     }
   }
 
@@ -19,8 +19,8 @@
 
     @media screen and (min-width: #{$break-point}){
       float: left;
-      width: 50%;
-      margin-right: 10%;
+      width: 45%;
+      margin-right: 5%;
     }
   }
 
@@ -55,7 +55,7 @@
 .camps{
   .media{
     @media screen and (min-width: #{$break-point}){
-      margin-left: 10%;
+      margin-left: 5%;
       margin-right: 0;
     }
   }
