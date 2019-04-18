@@ -2,7 +2,8 @@
 $magenta: #ee3070;
 $purple: #5b57a6;
 $blue: #00bcdf;
-$light-red: #f15a43;
+// light-red is same as magenta this year
+$light-red: #ee3070;
 $yellow: #ffd400;
 
 /*base colors*/
@@ -10,9 +11,9 @@ $white: #fff;
 $black: #000;
 $gray: #9B9B9B;
 
-$base-font-family: 'Richela-Kids', monospace;
-$header-font-family: 'Blueberry-Regular', script;
-$brand-font-family: 'Blueberry-Regular', script;
+$base-font-family: 'Lato', sans-serif;
+$header-font-family: 'Richela-Kids', monospace;
+$brand-font-family: 'Richela-Kids', monospace;
 
 $max-width: 1024px;
 $break-point: 40rem;
