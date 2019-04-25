@@ -1,9 +1,15 @@
+@media screen and (min-width: #{$wide-break-point}){
+  #cheater_space {
+    display: none;
+  }
+}
+
 header{
   @extend .container;
   text-align: center;
 
   @media screen and (min-width: #{$break-point}){
-    text-align: left;
+    text-align: center;
   }
 
   .button{
@@ -28,7 +34,7 @@ header{
 
 .brand{
   font-family: $brand-font-family;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
   color: $purple;
   text-decoration: none;
