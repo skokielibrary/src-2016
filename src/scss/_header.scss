@@ -5,12 +5,10 @@
 }
 
 header{
-  @extend .container;
   text-align: center;
 
-  @media screen and (min-width: #{$break-point}){
-    text-align: center;
-  }
+  @extend .container;
+  text-align: center;
 
   .button{
     margin: 1rem 1rem 0 0;
@@ -19,7 +17,6 @@ header{
     // color: $white;
 
     @media screen and (min-width: #{$wide-break-point}){
-      float: right;
       margin: 0 0 0 1rem;
     }
 
