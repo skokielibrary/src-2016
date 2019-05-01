@@ -16,9 +16,13 @@ h1, h2, h3{
 }
 
 a{
-  color: darken($gray, 20%);
+  color: $magenta;
   text-decoration: none;
   transition: .2s ease opacity;
+}
+
+.video a {
+  color: $yellow;
 }
 
 a:hover{
